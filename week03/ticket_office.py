@@ -6,7 +6,7 @@ free_tickets = 0
 while True:
     name = input("Customer name (or q to quit): ").strip()
     
-    # Çıkış kontrolü
+    
     if name.lower() == 'q':
         break
         
