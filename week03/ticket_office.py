@@ -39,19 +39,19 @@ while True:
         
     
     if age < 6:
-        discount = 1.0  # %100 İndirim
+        discount = 1.0  
         category = "Free"
     elif age >= 65:
-        discount = 0.50  # %50 İndirim
+        discount = 0.50 
         category = "Senior"
     elif 6 <= age <= 12:
-        discount = 0.40  # %40 İndirim
+        discount = 0.40  
         category = "Child"
     elif is_student == "yes" and age <= 25:
-        discount = 0.30  # %30 İndirim
+        discount = 0.30  
         category = "Student"
     else:
-        discount = 0.0  # %0 İndirim
+        discount = 0.0 
         category = "Standard"
         
     
