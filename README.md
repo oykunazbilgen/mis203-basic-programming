@@ -30,3 +30,31 @@ The "break" statement immediately exits the infinite loop when 'q' is entered as
      **Result:** Mert: 200.00 TRY (Standard)
 - **Why does the order of the rules matter?** 
   If the Student rule comes before the Child rule, a 10-year-old student would trigger the Student discount (30%) instead of receiving the correct Child discount (40%).
+
+
+# Week 04 - Surprise Me! (Generative Art Generator)
+
+##  Project Overview
+This project is an interactive Python application developed for the **Week 4 - "Surprise Me!"** assignment. It uses basic programming structures—such as variables, conditional statements (`if-elif-else`), `for` loops, dictionaries, and functions—along with built-in libraries to create generative digital art.
+
+Each time the script runs, it randomly selects geometric parameters and generates a unique, colorful neon pattern instantly on a dark canvas.
+
+## Key Features & Surprise Factors
+- **Dynamic Pattern Generation:** Randomly chooses between three geometric shapes:
+  1. **Hexagonal Spiral**
+  2. **Hypnotic Star**
+  3. **Rotating Squares**
+- **Randomized Aesthetics:** Randomly selects pen stroke thickness and color transitions from a vibrant neon palette for every line segment.
+- **Instant Rendering:** Utilizes `screen.tracer(0)` and `screen.update()` to render complex mathematical art instantly without animation lag.
+- **Terminal Feedback:** Prints the generated artwork type dynamically using string formatting and dictionary mappings.
+
+## Python Concepts Applied
+- **Conditionals (`if` / `elif` / `else`):** Controls thickness selection, step limits based on growth rate, and shape rendering logic.
+- **Loops (`for` loop):** Iterates through steps to incrementally expand the geometry.
+- **Data Structures:** Uses lists for color palettes and a dictionary for mapping shape IDs to names.
+- **Libraries (`turtle` & `random`):**
+  - `turtle`: Handles the graphical canvas, drawing operations, and screen management.
+  - `random`: Generates pseudo-random numbers and selections for procedural generation.
+
+---
+
